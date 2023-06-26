@@ -1,0 +1,25 @@
+.slider-list {
+    display: flex;
+    overflow: auto hidden;
+    list-style: none;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 40px calc((100vw - 100%) / 2 * -1) 0;
+    padding: 0 24px;
+    scrollbar-width: none;
+}
+
+.slider-list::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-item {
+    margin-right: 8px;
+    padding: 6px 12px;
+    border-radius: 15px;
+    background-color: #8b32ff;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
